@@ -1,0 +1,126 @@
+<html>
+<head>
+<title>article.py</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cc7832;}
+.s1 { color: #a9b7c6;}
+.s2 { color: #629755; font-style: italic;}
+.s3 { color: #6a8759;}
+.s4 { color: #808080;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+article.py</font>
+</center></td></tr></table>
+<pre><span class="s0">import </span><span class="s1">getpass</span>
+
+
+<span class="s0">def </span><span class="s1">view_article(password</span><span class="s0">, </span><span class="s1">stored_password</span><span class="s0">, </span><span class="s1">article):</span>
+    <span class="s2">&quot;&quot;&quot; 
+    Function to verify the password and display the article if correct. 
+    &quot;&quot;&quot;</span>
+    <span class="s0">if </span><span class="s1">password == stored_password:</span>
+        <span class="s1">print(</span><span class="s3">&quot;</span><span class="s0">\n</span><span class="s3">Access granted. Welcome Ms. Kruse. Here's my research paper!</span><span class="s0">\n</span><span class="s3">&quot;</span><span class="s1">)</span>
+        <span class="s1">print(article)</span>
+    <span class="s0">else</span><span class="s1">:</span>
+        <span class="s1">print(</span><span class="s3">&quot;</span><span class="s0">\n</span><span class="s3">Access denied. Incorrect password.&quot;</span><span class="s1">)</span>
+
+
+<span class="s0">def </span><span class="s1">main():</span>
+    <span class="s4"># Store the article</span>
+    <span class="s1">article = </span><span class="s3">&quot;&quot;&quot; 
+    Ancient Espionage: The Art of Ninjas, Assassination, and Sabotage 
+ 
+Ninjas, otherwise known as Shinobi, are ancient Japanese warriors trained for their ability to focus, handle pain, move with stealth and haste, and transfer information. My purpose in this research paper is to reveal their techniques and how they were so effective. Examining their training methods, tools, and skills, I will show how Ninjas used their unique skill set to operate in the “unseen”, influencing both the outcomes of battles and the broader political landscape of feudal Japan. Understanding their methods of concealment and stealth is crucial, because it provides valuable insights into the historical and cultural role of Ninjas in espionage and warfare. 
+ 
+ 
+ORIGINS 
+    The James Bond movie “You Only Live Twice” has popularized Ninjas in the media and inspired great works of cinematic masterpieces like Teenage Mutant Ninja Turtles, however, this is a crude depiction of what Ninjas really were. What we truly know today about Ninjas comes from the preserved scrolls of the Sengoku Period (1467-1600). However, scrolls go back to the Nanbokucho period (1336-1392) and Onin Wars (1467-1477). 
+    Before the Iga and Koga clan wars, Ninjas were seen as commoners and peasants who had no formal training, hired as mercenaries by powerful Samurai to undertake tasks which were deemed ‘too dishonorable’ for them to do themselves. It wasn’t until the Iga and Koga provinces established themselves as bastions for teaching the art of Ninjutsu. It was then that Ninjas were trained for specific tasks that they were expected to perform.  
+    “One of the famous recorded events of Ninja was the Battle of Okehazama, fought between Oda Nobunaga and Imagawa Yoshimoto in 1560. 
+Eighty Koga Ninjas were hired by the Tokugawa family, who were part of the Oda army, and given the task of raiding an outpost of the Imagawa army leading a horde of 25,000 men. 
+It is written that a small group of Ninjas snuck into the castle, set fire to a tower, and killed the castle's leader.” (Kuromaru) 
+    Lots of people make crossovers in their minds between Samurais and Ninjas. Both are ancient, depend on their unique set of skills, and are masters in martial arts. However, Ninjas and Samurais are not the same. Nor do they even have a similar philosophy. 
+(Please read these next few paragraphs in the stereotypical Mr. Miyagi voice it will make it significantly less boring) 
+ 
+Samurai vs Ninjas Roles in Society: 
+    First, Samurai. Word &quot;Samurai&quot; comes from “subaru”, I MEAN &quot;saburau&quot;... meaning to serve, to watch over. Samurai serve imperial families and noble aristocrats of Heian era Japan. More land aristocrats have, more power they hold. To protect land, they need Samurai as guardians. Over time, landowners give Samurai much power—so much, Samurai form a new government, &quot;shogunate.&quot; For over 600 years, Samurai rule as noble class, like steady rock in a rushing river. 
+ 
+Next, Ninja. Ninja, tool of war, used for assassination, sabotage, and secret information. Long ago, group called &quot;villains&quot; rise against Manorial system, where the gap between rich and poor grew wide like a canyon. Ninja, often of low social status, cannot fight Samurai face-to-face. So, they create new way—surprise attacks, arson, traps, and shadow tactics. In times of great war, warlords hire Ninja mercenaries for their skills. Sneak by night, steal secrets, spread lies, set fire—blend like wind, strike like lightning. But when Sengoku era end and Edo era begin, Ninja find new role. Shogunate hire them as castle guards and protectors of noble homes. 
+ 
+To sum up, Samurai serve with honor, protect aristocrats and shogunate. Ninja, shadows in the night, spies and assassins of the unseen war. Balance of light and shadow, both shape the story of Japan. 
+ 
+Samurai vs Ninja Skill Set: 
+    Because their roles in Ancient Japanese society were very different, so too are their unique skills. Here’s a brief overview of their skillsets. 
+ 
+SAMURAI RAAAAGH 😤⚔ 
+    The Samurai mainly trained in martial arts and skills related to war. For example, swordsmanship, spear art, archery, horsemanship, and Jyu-Jyutsu. They also studied literature, military science, and strategy. 
+ 
+Ninja 🐱‍👤 
+    The Ninja trained in the famous “nin-Jyutsu” and is where the name “Ninja” came from. Nin-Jyutsu is the generalized term referring to skills of theft, spying, intelligence activities, all while deceiving the eyes of others. For example, walking without making any noise, or to pass through narrow spaces. They even trained in communication skills to blend into enemy territory. 
+ 
+ 
+Samurai vs Ninja Beliefs and Philosophy: 
+Honor and pride were very important to the Samurai. Harakiri-the ritual suicide of cutting open your stomach-embodies how ones honor is more important than one’s self. They would rather die with nobility and dignity, than live with shame. The Samurai lived as the uppermost class of society for more than 600 years, it's no wonder they had to keep their moral code intact. 
+In the Edo period, all people of Japan were divided into 4 main classes by the government. Going from top to bottom, Samurai, Peasant, Craftsman, Merchant. Even though the Samurai were at the top of the top, they were not allowed to act heroically, they taught one another to live as everyone’s role model. This was the government's plan to keep the attitudes of the highest ranks of men low in order to avoid any uprising or revolution of any sort. A strong, intelligent, and humble man devoid of greed was the image of a noble Samurai. 
+    On the other hand, the Ninja's beliefs were completely different. As spies, they didn’t place value on dying with honor because their sacrifices would go unnoticed. They didn’t even place value on dying! As long as they knew the mission would be completed, they’d be content dead or alive. For Ninja, pride and being a role model didn’t matter. Their only focus was finishing the mission, no matter what it took. 
+Then lastly let's talk about the ultimate question: Samurai vs Ninja who would win in a fight to the death? Wait, what am I even thinking… This is a research paper. 😞 
+ 
+ 
+NIN-JYUTSU TECHNIQUES USED 
+Now that we have 4 pages of historical context, we can now start diving into techniques. According to my research, there are three main categories of Nin-Jyutsu training used by Ninja. ‘Toiri-no-Jyutsu’, or the tactics of sneaking into an enemy's camp. ‘Chikairi-no-Jyutsu’, or infiltrating enemy lines after the outbreak of hostilities. and ‘Ongyo-Jyutsu', or the ruses of escape. 
+Tori-no-Jyutsu 
+    According to Heichichiro Okuse, there were 11 different Toiri tactics for breaking into the enemy's camp. The first of them was called Shikei-no-Jyutsu, or careful preparation for achieving one's aim. 
+For instance, take a case where a team of Ninjas were handed the dangerous assignment of assassinating an enemy war lord. The lord would be heavily guarded, both by Samurai and his own Ninja. It might be far too risky to attempt a frontal attack or a midnight break-in. With such difficult assignments, the Ninja might fall back on cunning. 
+In such a case, the ninja might proceed indirectly. He might, for instance, try to secure work at a local Buddhist temple. After winning the priest's confidence by hard and dedicated service, he would get the priest to recommend him to the lord as a servant. He would thus gain entrance to the lord's house through the front door, operating in plain sight, and when the chance presented itself, assassinate him. 
+‘Katsurao-no-Jyutsu’ was a similar tactic. Involving sending spies to blend in as commoners in enemy territory and get them to move up in the hierarchy of social status, only to then sabotage the people who placed them that highly and escape. One of the more interesting aspects of the Toiri tactics was the use of female agents. Samurai and others working for an enemy war lord might be tempted with the love of a woman or plied with liquor and money in order to win them over. Only for the female placements to poison them and escape.  
+ 
+Chikairi-no-Jyutsu 
+    Chikairi-no-Jyutsu was a technique involved in infiltrating enemy lines during battle, which was very uncommon to Ninja training. In such cases, the ninja acted in a role similar to that of the British commandos of World War II, sneaking behind enemy lines to disrupt their position and engage in guerrilla tactics. 
+    A form of Chikairi, ‘Geinyu-Jyutsu’ was anything but honorable as was often why Samurai hired Ninja to perform their dirty work to gain the upper hand over the enemy. This included ambushing enemy soldiers, setting their camps on fire, stealing supplies and scrolls, and spreading false rumors to create chaos. 
+    With ‘Suigetsu-Jyutsu’, Ninja would disguise themselves as enemy troops, learning the local dialect, blending in, and causing disorder from within by any means necessary. “Accidentally” failing during simple tasks to disrupt the enemy from within, much like how many small mistakes and lack of communication can cause a perfectly good relationship to fail, or a perfectly flying plane to crash. 
+    ‘Hoka-Jyutsu’ on the other hand, was all about the art of arson. Ninjas targeting key locations like powder storage, armories, and warehouses, setting them ablaze and leaving. To maximize confusion and disruption, they would often first set fire to a less important area to draw attention. 
+ 
+Ongyo-Jyutsu 
+    The third category of Nin-Jyutsu was focused solely on escape. This is where ninjas mastered trickery and stealth and is probably why they’re so unique in pop-culture/history. Tales spoke of them vanishing through walls, rising from the dead, turning into trees or rocks, or even living underwater! Of course this is all folklore and was much less impressive than that. 
+    Ongyo-jutsu was divided into two main techniques: ‘Inpo’ (hiding) and ‘Tonho’ (disappearing). Ninjas were experts in camouflaging themselves, learning to control their movements and hold positions for extended periods of time. In dim moonlights, they could blend in so perfectly with their surroundings that they might appear as a tree or a bush. The goal was to abandon their human identity entirely and become one with the object they mimicked. 
+    Another fascinating skill in this category was controlled breathing. Ninjas could slow their breathing to the point where, during close inspection, they could appear lifeless. This ability also allowed them to remain underwater for long periods of time, breathing through hollow reeds or bamboo shoots. 
+    Other escape tactics were more immediate, like throwing dust or salt into an enemy’s eyes or confusing them with small explosives, such as firecrackers or flashing balls. Ninjas learned to adapt to their environment, using anything they could find to aid their escape. For example, ‘Doton-no-Jyutsu’ was designed for hiding in or behind objects like ditches, holes, mounds, stone lanterns, or statues. 
+Sometimes, these techniques took creative turns. During the Imperial Restoration War of 1867, one ninja cleverly hid his wife and mother from enemy soldiers by burying them up to their noses in manure-filled pots. He covered them with compost straw, a disguise so unpleasant that no one thought to look there. 
+A funny escape tactic was known as ‘Jinton-no-Jyutsu’, which combined quick thinking, disguises, and even animals. If surrounded by guards, a Ninja might point to a scary mask they planted on the wall earlier, or pull a snake or frog from their pocket and throw it at their pursuers. The momentary shock was often all they needed to slip away unnoticed. (Black Belt Team) 
+ 
+    To summarize, Ninjas were more than just fascinating movie characters that we grew up watching. They were masters of stealth, survival, and strategy. They’re well known for their unusual ability to think outside the box and accomplish the mission no matter the cost. Most of their stories feel larger than life, but at the core, their skills show just how far creativity and dedication can take you when the odds are stacked against you. Whether they were setting fires, spreading lies, or hiding in plain sight, Ninjas shaped history in ways that’ll always keep us fascinated—and maybe just a little in awe. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Works Cited 
+Black Belt Team. “Ninja History 101: Spies and Assassins.” Black Belt Magazine, 20 November 2023, https://www.blackbeltmag.com/ninja-history-101-spies-and-assassins. Accessed 16 December 2024. 
+Kuromaru. “History of the Ninja - Why are we so interested in Ninjas?” Ninja-Cafe, 17 11 2023, https://ninja-cafe.com/en/ninja-history/#:~:text=The%20role%20of%20the%20ninja,and%20the%20winning%20of%20battles. 
+ 
+    &quot;&quot;&quot;</span>
+
+    <span class="s4"># Set a password (you can change it to your desired password)</span>
+    <span class="s1">stored_password = </span><span class="s3">&quot;ninja123&quot;</span>
+
+    <span class="s1">print(</span><span class="s3">&quot;Welcome to the article viewer.&quot;</span><span class="s1">)</span>
+
+    <span class="s4"># Prompt user for the password</span>
+    <span class="s1">password = input(</span><span class="s3">&quot;Please enter the password to access the article: &quot;</span><span class="s1">)</span>
+
+    <span class="s4"># Verify and display the article</span>
+    <span class="s1">view_article(password</span><span class="s0">, </span><span class="s1">stored_password</span><span class="s0">, </span><span class="s1">article)</span>
+
+
+<span class="s0">if </span><span class="s1">__name__ == </span><span class="s3">&quot;__main__&quot;</span><span class="s1">:</span>
+    <span class="s1">main()</span></pre>
+</body>
+</html>
